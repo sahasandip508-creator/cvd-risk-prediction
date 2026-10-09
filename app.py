@@ -18,8 +18,8 @@ st.set_page_config(
 # LOAD TRAINED MODEL
 # ============================================================
 
-MODEL_PATH = "/content/cvd_xgb_model.pkl"
-FEATURE_PATH = "/content/cvd_feature_order.pkl"
+MODEL_PATH = "cvd_xgb_model.pkl"
+FEATURE_PATH = "cvd_feature_order.pkl"
 
 final_model = joblib.load(MODEL_PATH)
 feature_order = joblib.load(FEATURE_PATH)
